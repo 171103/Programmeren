@@ -6,7 +6,7 @@ class RekentoolApp(tk.Tk):
         super().__init__()
         
         self.title("Rekentool Applicatie")
-        self.geometry("400x300")
+        self.geometry("600x500")
         
         self.create_menu()
         self.show_frame(StartPage)
@@ -32,7 +32,7 @@ class RekentoolApp(tk.Tk):
 class StartPage(tk.Frame):
     def __init__(self, master):
         super().__init__(master)
-        label = tk.Label(self, text="Welkom bij de Rekentool Applicatie", font=("Arial", 16))
+        label = tk.Label(self, text="Welkom bij de Rekentool Applicatie bij Tim Bos", font=("Arial", 16))
         label.pack(pady=20)
 
 class BtwPage(tk.Frame):
